@@ -9,7 +9,7 @@ public class Animal
     protected string _name;
     protected int _age;
 
-    internal string TypeOfAnimal
+    public string TypeOfAnimal
     {
         get
         {
@@ -17,14 +17,14 @@ public class Animal
         }
         
     }
-    internal string Name
+    public string Name
     {
         get { return _name; }
         set { _name = value; }
     }
     
 
-    internal int Age
+    public int Age
     {
         get { return _age; }
         set
