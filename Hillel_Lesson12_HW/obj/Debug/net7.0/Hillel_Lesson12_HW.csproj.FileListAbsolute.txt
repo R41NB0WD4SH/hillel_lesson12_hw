@@ -13,3 +13,5 @@
 /Users/denis.klimovets/Documents/GitHub/hillel_lesson12_hw/Hillel_Lesson12_HW/obj/Debug/net7.0/Hillel_Lesson12_HW.pdb
 /Users/denis.klimovets/Documents/GitHub/hillel_lesson12_hw/Hillel_Lesson12_HW/obj/Debug/net7.0/Hillel_Lesson12_HW.genruntimeconfig.cache
 /Users/denis.klimovets/Documents/GitHub/hillel_lesson12_hw/Hillel_Lesson12_HW/obj/Debug/net7.0/ref/Hillel_Lesson12_HW.dll
+/Users/denis.klimovets/Documents/GitHub/hillel_lesson12_hw/Hillel_Lesson12_HW/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/denis.klimovets/Documents/GitHub/hillel_lesson12_hw/Hillel_Lesson12_HW/obj/Debug/net7.0/Hillel_Lesson12_HW.csproj.CopyComplete

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 using System.Text;
+using System.Text.Json.Serialization;
+using System.Xml.Serialization;
 
 namespace Hillel_Lesson12_HW
 {
@@ -29,6 +31,16 @@ namespace Hillel_Lesson12_HW
             ShowAnimal(cat);
             cat.MakeSound();
             cat.ShowOxygenAlert();
+
+
+            XMLSerializer xmlSerializer = new XMLSerializer();
+            var data = xmlSerializer.Serialize(dog);
+            var deserialized = xmlSerializer.Deserialize(data);
+
+
+            var jsonSerializer = new JSONSerializer();
+            var json = jsonSerializer.Serialize(dog);
+            var deserializedDog = jsonSerializer.Deserialize(json);
             
             
             Console.ReadKey();

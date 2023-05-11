@@ -1,7 +1,12 @@
 using System.Threading.Channels;
+using System.Text.Json.Serialization;
+using System.Xml.Serialization;
+using Newtonsoft.Json;
 
 namespace Hillel_Lesson12_HW;
 
+
+[Serializable]
 public class Dog : Aerobic
 {
 

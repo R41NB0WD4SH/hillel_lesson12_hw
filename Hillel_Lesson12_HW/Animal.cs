@@ -1,5 +1,7 @@
 namespace Hillel_Lesson12_HW;
 
+
+[Serializable]
 public class Animal
 {
 
